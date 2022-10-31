@@ -45,17 +45,17 @@
     --avatar-speaking-color: rgb(59, 165, 93);
     --app-focused-duration: .45s;
     --app-focused-transition: background-color var(--app-focused-duration) ease-in-out, backdrop-filter 0s linear var(--app-focused-duration);
-    --blur-header: blur(0px);
-    --blur-sidebar: blur(0px);
-    --button-blur: blur(0px);
+    --blur-header: blur(16px);
+    --blur-sidebar: blur(16px);
+    --button-blur: blur(16px);
     --channel-icon: #787878
 }
 
 .app-focused {
     --app-focused-transition: background-color var(--app-focused-duration) ease-in-out, backdrop-filter 0s linear 0s;
-    --blur-header: blur(128px);
-    --blur-sidebar: blur(32px);
-    --button-blur: blur(64px)
+    --blur-header: blur(256px);
+    --blur-sidebar: blur(64px);
+    --button-blur: blur(128px)
 }
 
 .activity-2EQDZv,
